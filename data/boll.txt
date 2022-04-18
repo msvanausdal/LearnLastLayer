@@ -1,0 +1,116 @@
+{
+  "category":"boll",
+  "numCases":10,
+  "cases":[
+    {
+      "name":"dot shape",
+      "data":[
+        "x", "y", "x", 
+        "x", "x", "x", "x", "x", 
+        "y", "x", "y", "x", "y", 
+        "x", "x", "x", "x", "x",
+        "x", "y", "x"
+      ],
+      "solution":"F R U R' U' F' f R U R' U' f'"
+    },
+    {
+      "name":"i shape",
+      "data":[
+        "x", "y", "x",
+        "x", "x", "x", "x", "x",
+        "x", "y", "y", "y", "x",
+        "x", "x", "x", "x", "x",
+        "x", "y", "x"
+      ],
+      "solution":"F R U R' U' F'"
+    },
+    {
+      "name":"l shape",
+      "data":[
+        "x", "y", "x",
+        "x", "x", "x", "x", "x",
+        "y", "x", "y", "y", "x",
+        "x", "x", "y", "x", "x",
+        "x", "x", "x"
+      ],
+      "solution":"f R U R' U' f'"
+    },
+    {
+      "name":"antisune",
+      "data":[
+        "x", "x", "x",
+        "y", "x", "y", "y", "x", 
+        "x", "y", "y", "y", "x", 
+        "x", "x", "y", "x", "y", 
+        "y", "x", "x"
+      ],
+      "solution":"R U2 R' U' R U' R'"
+    },
+    {
+      "name":"h",
+      "data":[
+        "x", "x", "x",
+        "y", "x", "y", "x", "y", 
+        "x", "y", "y", "y", "x", 
+        "y", "x", "y", "x", "y", 
+        "x", "x", "x"
+      ],
+      "solution":"R U R' U R U' R' U R U2 R'"
+    },
+    {
+      "name":"l",
+      "data":[
+        "x", "x", "x",
+        "x", "y", "y", "x", "y", 
+        "x", "y", "y", "y", "x", 
+        "x", "x", "y", "y", "x", 
+        "y", "x", "x"
+      ],
+      "solution":"F R' F' r U R U' r'"
+    },
+    {
+      "name":"pi",
+      "data":[
+        "x", "x", "y",
+        "y", "x", "y", "x", "x", 
+        "x", "y", "y", "y", "x", 
+        "y", "x", "y", "x", "x", 
+        "x", "x", "y"
+      ],
+      "solution":"R U2 R2 U' R2 U' R2 U2 R"
+    },
+    {
+      "name":"sune",
+      "data":[
+        "y", "x", "x",
+        "x", "x", "y", "x", "y", 
+        "x", "y", "y", "y", "x", 
+        "x", "y", "y", "x", "x", 
+        "x", "x", "y"
+      ],
+      "solution":"R U R' U R U2 R'"
+    },
+    {
+      "name":"t",
+      "data":[
+        "y", "x", "x",
+        "x", "x", "y", "y", "x", 
+        "x", "y", "y", "y", "x", 
+        "x", "x", "y", "y", "x", 
+        "y", "x", "x"
+      ],
+      "solution":"r U R' U' r' F R F'"
+    },
+    {
+      "name":"u",
+      "data":[
+        "x", "x", "x",
+        "x", "y", "y", "y", "x", 
+        "x", "y", "y", "y", "x", 
+        "x", "x", "y", "x", "x", 
+        "y", "x", "y"
+      ],
+      "solution":"R2 D R' U2 D' R' U2 R'"
+    }
+  ]
+}
