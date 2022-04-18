@@ -1,0 +1,72 @@
+{
+  "category":"bpll",
+  "numCases":6,
+  "cases":[
+    {
+      "name":"diagonal",
+      "data":[
+        'b', 'x', 'g', 
+        'r', 'y', 'y', 'y', 'r', 
+        'x', 'y', 'y', 'y', 'x', 
+        'o', 'y', 'y', 'y', 'o',
+        'b', 'x', 'g'
+      ],
+      "solution":"F R U' R' U' R U R' F' R U R' U' R' F R F'"
+    },
+    {
+      "name":"headlights",
+      "data":[
+        'g', 'x', 'r',
+        'o', 'y', 'y', 'y', 'b',
+        'x', 'y', 'y', 'y', 'x',
+        'o', 'y', 'y', 'y', 'g',
+        'b', 'x', 'r'
+      ],
+      "solution":"R U R' U' R' F R2 U' R' U' R U R' F"
+    },
+    {
+      "name":"PLL (H)",
+      "data":[
+        'g', 'b', 'g',
+        'o', 'y', 'y', 'y', 'r',
+        'r', 'y', 'y', 'y', 'o',
+        'o', 'y', 'y', 'y', 'r',
+        'b', 'g', 'b'
+      ],
+      "solution":"M2 U M2 U2 M2 U M2"
+    },
+    {
+      "name":"PLL (Ua)",
+      "data":[
+        'g', 'g', 'g',
+        'o', 'y', 'y', 'y', 'r',
+        'b', 'y', 'y', 'y', 'o',
+        'o', 'y', 'y', 'y', 'r',
+        'b', 'r', 'b'
+      ],
+      "solution":"R U' R U R U R U' R' U' R2"
+    },
+    {
+      "name":"PLL (Ub)",
+      "data":[
+        'g', 'g', 'g',
+        'o', 'y', 'y', 'y', 'r',
+        'r', 'y', 'y', 'y', 'b',
+        'o', 'y', 'y', 'y', 'r',
+        'b', 'o', 'b'
+      ],
+      "solution":"R2 U R U R' U' R' U' R' U R'"
+    },
+    {
+      "name":"PLL (Z)",
+      "data":[
+        'r', 'b', 'r',
+        'g', 'y', 'y', 'y', 'b',
+        'o', 'y', 'y', 'y', 'r',
+        'g', 'y', 'y', 'y', 'b',
+        'o', 'g', 'o'
+      ],
+      "solution":"M2 U M2 U2 M2 U M2"
+    }
+  ]
+}
