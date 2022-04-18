@@ -14,6 +14,6 @@ if __name__ == "__main__":
             else:
                 scramble()
         if arg == '-bpll':
-            categories.printCategory('data/bpll')
+            categories.printCategory('data/bpll.txt')
         if arg == '-boll':
-            categories.printCategory('data/boll')
+            categories.printCategory('data/boll.txt')
