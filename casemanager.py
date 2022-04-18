@@ -15,7 +15,7 @@ def parseCases(path):
 
 def _color(data):
     if data == 'x':
-        return colored('#', 'grey')
+        return colored('#', 'white')
     elif data == 'o':
         return colored('#', 'magenta')
     elif data == 'g':
